@@ -67,6 +67,32 @@ class cuadro extends elementoArte {
                 "tipoPintura:'" + tipoPintura + '\'';
     }
 }
+class temaMusical extends elementoArte {
+    private String tipoMusica;
+    public temaMusical(int anoRealizacion, String autor, String tipoMusica) {
+        super(anoRealizacion, autor);
+        setTipoMusica(tipoMusica);
+    }
+    public temaMusical(int anoRealizacion, String tipoMusica) {
+        super(anoRealizacion);
+        setTipoMusica(tipoMusica);
+    }
+    public temaMusical(String autor, String tipoMusica) {
+        super(autor);
+        setTipoMusica(tipoMusica);
+    }
+    public temaMusical(String tipoMusica) {
+        setTipoMusica(tipoMusica);
+    }
+    public void setTipoMusica(String tipoMusica) {
+        this.tipoMusica = tipoMusica;
+    }
+    @Override
+    public String toString() {
+        return super.toString()+
+                "tipoMusica:'" + tipoMusica + '\'';
+    }
+}
 class sitioWeb {
     private ArrayList<elementoArte> coleccion = new ArrayList<elementoArte>(1000);
     public int size(){
