@@ -123,6 +123,7 @@ public class Main {
         elementoArte losGirasoles=new cuadro(1876,"Van Gogh","abstracto");
         elementoArte latasSopaCampbell=new cuadro(1962,"Warhol","pop");
         elementoArte losFusilamientos=new cuadro(1814,"Goya","óleo");
+        elementoArte theTrooper=new temaMusical(1983,"Iron Maiden","metal");
 
         miSitioWeb.addColeccion(lasLanzas);
         miSitioWeb.addColeccion(losGirasoles);
