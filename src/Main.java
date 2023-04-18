@@ -129,6 +129,7 @@ public class Main {
         miSitioWeb.addColeccion(losGirasoles);
         miSitioWeb.addColeccion(latasSopaCampbell);
         miSitioWeb.addColeccion(losFusilamientos);
+        miSitioWeb.addColeccion(theTrooper);
 
         System.out.println(miSitioWeb);
        // NO SE PUEDE INSTANCIAR UNA CLASE ABSTRACTA new elementoArte(1595,"Pepe");
